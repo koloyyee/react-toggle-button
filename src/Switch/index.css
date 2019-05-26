@@ -1,0 +1,53 @@
+
+.comp-switch {
+  display: flex;
+  width: 5em;
+  height: 2em;
+  transition: 300ms;
+  background-color: lightblue;
+  border-radius: 3em;
+  padding:0.3em;
+}
+
+.comp-switch.active{
+  transition: 300ms;
+  background-color:lightcoral;
+}
+
+.comp-switch.disabled{
+  pointer-events: none;
+  transition: 300ms;
+  background-color:lightgray;
+}
+
+
+.knob{
+  height: 2em;
+  width: 2em;
+  background-color:white;
+  border-radius:50%;
+  transition: 500ms;
+
+}
+
+.knob.active{
+  margin-left:3em;
+  transition: 500ms;
+}
+
+#content{
+  display:flex;
+  justify-content: flex-start;
+  border: solid 1px lightgray;
+  font-size: 1.5em;
+  border-radius: 2em;
+  font-family: Helvetica;
+  width:20vw;
+  padding: 2vw;
+  margin:1.1em;
+  
+}
+button{
+  margin:5px;
+  border-radius: 2em;
+}
